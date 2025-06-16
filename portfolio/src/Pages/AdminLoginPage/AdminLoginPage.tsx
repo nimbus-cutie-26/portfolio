@@ -1,6 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import programmer from "/Josh.png";
-import aboutMeImg from "/Programmer.png";
 import TypewriterHeading from "../../Animation/TypeWriterHeading";
 import SplashCursor from "../../Animation/SplashCursor";
 import Preloader from "../../Animation/PreLoader";
@@ -272,7 +270,7 @@ function AdminLoginPage(): JSX.Element {
                 {/* Hero image */}
                 <div className="order-1 md:order-2 w-full md:w-2/5 max-w-40 sm:max-w-sm md:max-w-72 flex items-center justify-center md:ml-16">
                   <img
-                    src={programmer}
+                    src="/Josh.png"
                     alt="Programmer"
                     className={`w-full h-auto object-contain md:object-cover rounded-2xl drop-shadow-[5px_10px_10px_rgba(0,0,0,0.5)] transition-all duration-1000  ${visibleSections.home ? "opacity-100 md:translate-x-0" : "opacity-0 md:-translate-x-10"}`}
                   />
@@ -290,7 +288,7 @@ function AdminLoginPage(): JSX.Element {
                   {/* Left vertical box */}
                   <div className="flex-1 h-96 sm:h-auto sm:min-h-[50px] sm:flex hidden items-center justify-center">
                     <img
-                      src={aboutMeImg}
+                      src="/Programmer.png"
                       alt="aboutMeImg"
                       className={`w-full max-w-xs sm:max-w-sm md:h-[500px] h-[250px] object-contain rounded-2xl drop-shadow-[5px_10px_10px_rgba(0,0,0,0.5)] transition-all duration-1000 ${visibleSections.about ? "opacity-100 md:translate-x-0" : "opacity-0 md:-translate-x-10"}`}
                     />
