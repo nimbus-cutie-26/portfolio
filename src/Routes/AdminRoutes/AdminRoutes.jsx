@@ -1,7 +1,7 @@
 import AdminLoginPage from "../../Pages/AdminLoginPage/AdminLoginPage";
 
 const AdminLoginRoute = {
-  path: "/admin",
+  path: "/portfolio",
   element: <AdminLoginPage />,
 };
 
